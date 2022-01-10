@@ -10,19 +10,19 @@ Uses depth first search to generate a maze
 
 ## Usage
 
-    $ python maze.py -h
-    usage: maze.py [-h] [--width WIDTH] [--height HEIGHT] [--filename FILENAME] [--scale SCALE]
+    maze.py [-h] [--width WIDTH] [--height HEIGHT] [--filename FILENAME] [--video] [--scale SCALE] [--duration DURATION]
 
     optional arguments:
       -h, --help           show this help message and exit
       --width WIDTH        The width of the maze (default 50)
       --height HEIGHT      The height of the maze (default 50)
-      --filename FILENAME  The image filename where to save the result (default maze.png)
-      --scale SCALE        The scale of the rendered image (default 100)
-      
-      
+      --filename FILENAME  The filename where to save the result
+      --video              Whether to generate video output instead of image
+      --scale SCALE        The scale of the rendered output (default 100)
+      --duration DURATION  The duration of the rendered video (default 200) 
+          
 ## Results
 
     $ python maze.py
 
-![Image](maze.png)
+![Image](output/maze.png)
