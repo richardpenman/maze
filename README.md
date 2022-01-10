@@ -26,3 +26,7 @@ Uses depth first search to generate a maze
     $ python maze.py
 
 ![Image](output/maze.png)
+
+    $ python maze.py --width=20 --height=20 --duration=100 --video --filename maze.gif
+    
+![Image](output/maze.gif)
