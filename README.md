@@ -25,13 +25,13 @@ By default generate a maze using DST:
 
     $ python maze.py
 
-![Image](output/maze_dst.png)
+![Image](output/maze_dfs.png)
 
 Generate a video showing each step of the maze generation process:
 
     $ python maze.py --width=20 --height=20 --video
     
-![Image](output/maze_dst.gif)
+![Image](output/maze_dfs.gif)
 
 Generate a maze using a different algorithm:
 
