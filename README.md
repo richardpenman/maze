@@ -21,7 +21,7 @@
 
 ## Results
 
-By default generate a maze using DST:
+By default generate a maze image using a depth first search algorithm:
 
     $ python maze.py
 
