@@ -21,7 +21,7 @@
 
 ## Results
 
-By default generate a maze image using a depth first search algorithm:
+Generate a maze image using [depth first search](https://en.wikipedia.org/wiki/Maze_generation_algorithm#Randomized_depth-first_search):
 
     $ python maze.py
 
@@ -33,7 +33,7 @@ Generate a video showing each step of the maze generation process:
     
 ![Image](output/maze_dfs.gif)
 
-Generate a maze using a different algorithm:
+Generate a maze using [Kruskal's](https://en.wikipedia.org/wiki/Maze_generation_algorithm#Randomized_Kruskal's_algorithm) algorithm:
 
     $ python maze.py --width=20 --height=20 --algorithm=kruskal --video
     
